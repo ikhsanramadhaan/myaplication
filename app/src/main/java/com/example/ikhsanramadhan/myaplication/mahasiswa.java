@@ -6,6 +6,22 @@ package com.example.ikhsanramadhan.myaplication;
 
 public class mahasiswa {
     private String nim,nama;
+    private int image;
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public mahasiswa(String nim, String nama, int image) {
+
+        this.nim = nim;
+        this.nama = nama;
+        this.image = image;
+    }
 
     public mahasiswa(String nim, String nama) {
         this.nim = nim;

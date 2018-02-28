@@ -16,10 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kelas01Activity" />
-        <activity android:name=".kelas02Activity" />
-        <activity android:name=".kelas03Activity" />
-        <activity android:name=".kelas04Activity"></activity>
+        <activity android:name=".kelas01Activity" android:label="@string/kelas01"/>
+        <activity android:name=".kelas02Activity" android:label="@string/kelas02" />
+        <activity android:name=".kelas03Activity" android:label="@string/kelas03"/>
+        <activity android:name=".kelas04Activity" android:label="@string/kelas04">
+
+        </activity>
     </application>
 
 </manifest>

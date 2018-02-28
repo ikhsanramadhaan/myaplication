@@ -46,7 +46,7 @@ public class kelas01Activity extends AppCompatActivity {
         Listkelas01.add(new mahasiswa("6706164115","DHIKA HUTAMA PUTRA"));
         Listkelas01.add(new mahasiswa("6706164130","NANDA FEBRIAN ADHINUGROHO"));
 
-        mahasiswaadapter mhsadapter= new mahasiswaadapter(this, R.layout.listview, Listkelas01);
+        mahasiswaadapter mhsadapter= new mahasiswaadapter(this, Listkelas01);
         listView.setAdapter(mhsadapter);
 
 
